@@ -1,0 +1,16 @@
+.alignment_wrapper{
+    margin-bottom: 40px;
+    h2{
+        margin-bottom: 20px;
+    }
+    .option_wrapper{
+        display: flex;
+        .item_wrapper{
+            margin-right: 30px;
+            input{
+                margin-right: 15px;
+                transform: scale(2);
+            }
+        }
+    }
+}

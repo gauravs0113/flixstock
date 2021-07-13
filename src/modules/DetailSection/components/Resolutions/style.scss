@@ -1,0 +1,15 @@
+.alignment_wrapper{
+    margin-bottom: 40px;
+    h2{
+        margin-bottom: 20px;
+    }
+    .option_wrapper{
+        display: flex;
+        select{
+            padding: 10px 10px 10px 0;
+            width: 400px;
+            border: 0;
+            border-bottom: 1px solid #333;
+        }
+    }
+}
