@@ -5,7 +5,7 @@ import './style.scss';
 const TargetGroups = () => {
     const {data, handleTargetGroupClick, selectedGroup} = useData(useData)
     useEffect(()=>{
-        data && handleTargetGroupClick(data.targetGroup[0]._id)
+        !selectedGroup && data && handleTargetGroupClick(data.targetGroup[0]._id)
     },[data, selectedGroup])
     return(
         <div className="group_wrapper">
