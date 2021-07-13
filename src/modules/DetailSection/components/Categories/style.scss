@@ -1,0 +1,27 @@
+.category_section_wrapper{
+    margin-bottom: 40px;
+    h2{
+        margin-bottom: 10px;
+    }
+    .category_btn_wrapper{
+        display: flex;
+        flex-wrap: wrap;
+        .category_btn{
+            padding: 10px 20px;
+            margin:0 15px 15px 0;
+            border: 1px solid #ddd;
+            border-radius: 50px;
+            &::before{
+                content: '\002B';
+                margin-right: 5px;
+            }
+            &.selected{
+                background: #0092f1;
+                color: #fff;
+                &::before{
+                    content: '\2212';
+                }
+            }
+        }
+    }
+}
