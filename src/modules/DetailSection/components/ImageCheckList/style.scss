@@ -1,0 +1,29 @@
+.angles_wrapper{
+    margin-bottom: 40px;
+    .angle_values_wrapper{
+        display: flex;
+        flex-wrap: wrap;
+        .angle_item{
+            img{
+                max-width: 220px;
+            }
+            h3{
+                font-size: 13px;
+            }
+        }
+    }
+    .selected_categories_list_wrapper{
+        display: flex;
+        border-bottom: 1px solid #ddd;
+        margin-bottom: 20px;
+        li{
+            list-style: none;
+            margin-right: 20px;
+            padding:10px 0;
+            margin-bottom: -3px;
+            &.selected{
+                border-bottom: 3px solid navy;
+            }
+        }
+    }
+}

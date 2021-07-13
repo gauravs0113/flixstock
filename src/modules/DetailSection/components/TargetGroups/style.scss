@@ -1,0 +1,12 @@
+.group_wrapper{
+    display: flex;
+    margin-bottom: 40px;
+    .item_wrapper{
+        margin-right: 30px;
+        text-transform: capitalize;
+        input{
+            margin-right: 15px;
+            transform: scale(2);
+        }
+    }
+}
